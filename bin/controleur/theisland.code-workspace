@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Projet test FX"
+		},
+		{
+			"path": "../../.git"
+		},
+		{
+			"path": "../../bin"
+		},
+		{
+			"path": "../../images"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"src"
+		],
+		"java.project.outputPath": "bin",
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar",
+			"/Library/Frameworks/javafx-sdk-18.0.1/**/*.jar"
+		]
+	}
+}

@@ -1,0 +1,46 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Controleur",
+            "request": "launch",
+            "mainClass": "vue/controleur.Controleur",
+            "projectName": "TheIsland"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path /Library/Frameworks/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch Controleur",
+            "request": "launch",
+            "mainClass": "controleur.Controleur",
+            "projectName": "TheIsland",
+            "vmArgs": "--module-path /Library/Frameworks/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch Plateau",
+            "request": "launch",
+            "mainClass": "modele.Plateau",
+            "projectName": "TheIsland",
+            "vmArgs": "--module-path /Library/Frameworks/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tuile",
+            "request": "launch",
+            "mainClass": "modele.Tuile",
+            "projectName": "TheIsland",
+            "vmArgs": "--module-path /Library/Frameworks/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
